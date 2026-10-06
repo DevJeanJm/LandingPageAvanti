@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --cor-banner-inicial:#005CFF;
+    --desconto-primeiro-pedido: #6220C1;
+    --cor-header: ;
+    --cor-sombra: #00000040;
+    --cor-desconto-produto: #5EC0BE;
+    --branco:#FFFFFF;
+}
+:root{
+    --font-nunito: 'nunito-sans', sans-serif;
+}
+/* MOBILE FIRTS */
+
+p{
+    font-family: var(--font-nunito);
+    font-weight: 700;
+    font-style: bold;
+    color: var(--branco);
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding-top: 2vh;
+    width: 100vw;
+    height: 7vh;
+    background-color: var(--cor-banner-inicial);
+}
+p>mark{
+    background-color: var(--desconto-primeiro-pedido);
+    color: var(--branco);
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.component1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.searchArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
