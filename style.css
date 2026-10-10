@@ -17,38 +17,62 @@
 }
 /* MOBILE FIRTS */
 
-p{
-    font-family: var(--font-nunito);
-    font-weight: 700;
-    font-style: bold;
-    color: var(--branco);
-    text-align: center;
-    justify-content: center;
-    border-radius: 4px;
-    padding-top: 2vh;
+header{
     width: 100vw;
-    height: 7vh;
-    background-color: var(--cor-banner-inicial);
-}
-p>mark{
-    background-color: var(--desconto-primeiro-pedido);
-    color: var(--branco);
-    border-radius: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
-.component1{
+#grupo36{
     display: flex;
-    gap: 10px;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    width: 100vw;
+    width: 390px;
+    height: 64.93px;
+    background-color: var(--cor-banner-inicial);
 }
-.searchArea{
+#grupo36>p{
+    width: 346px;
+    height: 54.94px;
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--font-nunito);
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 22px;
+}
+#grupo36>p>span{
+    font-family: var(--font-nunito);
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 22px;
+    text-align: center;
+}
+#grupo36>p>mark{
+    height: 16px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: var(--desconto-primeiro-pedido);
+    color: var(--branco);
+}
+
+
+
+
+/* quadrados embaixo do vetor avanti */
+#grupo23776{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+}
+.retangulo7685{
+    width: 166px;
+    height: 40px;
+    padding-left: 13px;
+    background-color: var(--cor-sombra);
+}
+
+.retangulo7686{
+    width: 166px;
+    height: 40px;
+    padding-left: 208px;
+    background-color: var(--cor-sombra);
 }
